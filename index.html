@@ -25,14 +25,14 @@ body{
   font-family:'Poppins',sans-serif;
   background:
     linear-gradient(180deg, rgba(0,0,0,.7), rgba(0,0,0,.9)),
-    url(image/bc.png) alt="bc.png";
+    url("./bc.png");
   background-size:cover;
   background-position:center;
   color:#eee;
   overflow-x:hidden;
 }
 
-/* ===== PREMIUM GOLD BANNER ===== */
+/* ===== NAVBAR ===== */
 .navbar{
   position:sticky;
   top:0;
@@ -126,7 +126,6 @@ body{
   opacity:.9;
 }
 
-/* BUTTON */
 .btn{
   display:inline-block;
   margin-top:40px;
@@ -138,7 +137,6 @@ body{
   text-decoration:none;
   transition:.4s;
   box-shadow:0 10px 40px rgba(212,175,55,.5);
-  
 }
 
 .btn:hover{
@@ -176,7 +174,6 @@ body{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
   gap:30px;
-  cursor: pointer;
 }
 
 .skill-box{
@@ -198,7 +195,7 @@ body{
   margin-bottom:10px;
 }
 
-/* ===== ANIMATIONS ===== */
+/* ANIMATIONS */
 @keyframes fadeLeft{
   from{opacity:0; transform:translateX(-80px);}
   to{opacity:1; transform:translateX(0);}
@@ -214,7 +211,7 @@ body{
   to{opacity:1; transform:translateY(0);}
 }
 
-/* ===== RESPONSIVE ===== */
+/* RESPONSIVE */
 @media(max-width:900px){
   .navbar{
     padding:0 20px;
@@ -241,24 +238,23 @@ body{
     padding:80px 20px;
   }
 }
+
 .txt{
-    font-family: TIMES;
-    font-size: 28px;
+  font-family:Times New Roman, serif;
+  font-size:28px;
 }
+
 .sk{
-    text-shadow: 0px 0px 10px grey,
-                 0px 0px 20px grey,
-                 0px 0px 40px grey;
+  text-shadow:0 0 10px grey, 0 0 20px grey, 0 0 40px grey;
 }
 </style>
 </head>
 
 <body>
 
-<!-- GOLD BANNER -->
 <nav class="navbar">
   <div class="nav-left">
-    <img src="image/prologo-removebg-preview.png" alt="prologo-removebg-preview">
+    <img src="./prologo-removebg-preview.png" alt="Encrip Logo">
     <span class="brand">ENCRIP</span>
   </div>
 
@@ -270,7 +266,6 @@ body{
   </div>
 </nav>
 
-<!-- HERO -->
 <section class="hero" id="home">
   <div class="hero-text">
     <h1>PRINCE <span>ENCRIP</span></h1>
@@ -278,15 +273,14 @@ body{
       Creative Designer & Tech Enthusiast <br>
       Crafting premium digital experiences with modern design and technology.
     </p>
-    <a href="" target="_blank" class="btn">View My Projects</a>
+    <a href="#" class="btn">View My Projects</a>
   </div>
 
   <div class="hero-img">
-    <img src="image/Princuuu.png" alt="Princuuu">
+    <img src="./0Princuuu.png" alt="Prince">
   </div>
 </section>
 
-<!-- SKILLS -->
 <section class="section" id="skills">
   <h2 class="sk">Skills</h2>
   <div class="skills">
@@ -299,5 +293,3 @@ body{
 
 </body>
 </html>
-
-
